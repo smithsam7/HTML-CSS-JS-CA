@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <div class="navbar-nav">
+                <ul class="nav nav-pills">
+                  <li role="presentation" class="active"><a href="http://52.14.4.173/html-css-js-ca/index.html">Home</a>&nbsp;&nbsp;&nbsp;</li>
+                  <li role="presentation"><a href="http://52.14.4.173/html-css-js-ca/locations.html">Locations</a>&nbsp;&nbsp;&nbsp;</li>
+                  <li role="presentation"><a href="http://52.14.4.173/html-css-js-ca/photogallary.html">Photo Gallary</a>&nbsp;&nbsp;&nbsp;</li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+        <div class="container-fluid">
+            <div id="hiddencontent" style="display: none">
+                <p>Hello!</p>
+                <p>Yo!</p>
+
+            </div>
+            <button type="button" onclick="hidecontent()">Click Me!</button>
+
+        </div>
+        
+        
+        <script>
+            function hidecontent(){
+                document.getElementById("hiddencontent").style.display='block';
+            }
+        </script>
+    
+    </body>
+</html>
