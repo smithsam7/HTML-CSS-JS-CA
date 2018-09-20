@@ -1,5 +1,4 @@
 .intro {
-    /*background-image: url("nature.jpg");*/
     background-image: url("https://media.deseretdigital.com/file/9af0c88997?crop=top:0|left:0|width:940|height:500|gravity:Center&quality=55&interlace=none&resize=width:940&order=resize,crop&c=14&a=8e1c7dfe");
     position: relative;
     vertical-align: middle;
@@ -8,7 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 200px;
     
 }
 .header {
@@ -17,18 +16,27 @@
     color: black;
 }
 .pic1 {
-    /*background-image: url("monument-valley-UOT-Slideshow-Long-final-final_073-2000x1200.jpg");*/
-    background-image: url("http://media2.govtech.com/images/940*556/Flickr-Utah-Desert.jpg");
+    background-image: url("http://utahlakecommission.org/wp-content/uploads/2011/03/utah-lake-pelican-point.jpg");
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 800px;
+}
+.bikepic2{
+    background-image: url("https://ep1.pinkbike.org/p4pb14771815/p4pb14771815.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+
+    
 }
 .pic2 {
-    /*background-image: url("utah-mountain-ranges-widescreen-2560x16001.jpg");*/
-    background-image: url("https://c1.staticflickr.com/2/1674/24525526674_5143280fbe_b.jpg");
+    background-image: url("http://local.sltrib.com/outdoors/Hikes/images/ymountain-10222014.jpg");
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -36,8 +44,17 @@
     background-size: cover;
     min-height: 800px;
 }
-.caption {
+.hikepic2{
+    background-image: url("https://media.deseretdigital.com/file/29803c0252?crop=top:0|left:0|width:1260|height:670|gravity:Center&quality=55&interlace=none&resize=width:1260&order=resize,crop&c=14&a=e0f131f0");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
     
+}
+.caption {
     left: 0;
     top: 54%;
     width: 100%;
@@ -46,8 +63,10 @@
     color: black;
 }
 .boarder {
-    color: #777;
+    color: black;
     background-color:white;
+    text-align: center;
+    padding-top: 25px;
     
     
 }
@@ -56,4 +75,12 @@ p1 {
 }
 .button_wrapper {
     text-align: right;
+}
+ul {
+    list-style-type:none;
+    font-size: 25px;
+    color: black;
+}
+ul li{
+    display: inline;
 }

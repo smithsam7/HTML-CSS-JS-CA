@@ -1,42 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
         <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
         <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8"> 
+        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+        <!--<meta charset="utf-8"> -->
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body>
-        <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-            <div class="navbar-nav">
+        <div class="boarder">
+            <span class="caption">Provo Adventure Guide</span> <!-- You can probably erase get rid of this first divider. IDK -->
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
                 <ul class="nav nav-pills">
                   <li role="presentation" class="active"><a href="http://52.14.4.173/html-css-js-ca/index.html">Home</a>&nbsp;&nbsp;&nbsp;</li>
-                  <li role="presentation"><a href="http://52.14.4.173/html-css-js-ca/locations.html">Locations</a>&nbsp;&nbsp;&nbsp;</li>
-                  <li role="presentation"><a href="http://52.14.4.173/html-css-js-ca/photogallary.html">Photo Gallary</a>&nbsp;&nbsp;&nbsp;</li>
+                  <li role="presentation"><a href="http://52.14.4.173/html-css-js-ca/photogallery.html">Guide</a>&nbsp;&nbsp;&nbsp;</li>
                 </ul>
+            </nav>
+       </div>
+       <div class="HomeBGImage">
+           
+            <div class="container-fluid">
+                <div id="hiddencontent" style="display: none">
+                    <p class="information">We hope that those searching for adventure near Provo Utah will be able to find even more than what they are searching for! <br> 
+                    And if you are really needing some motivation, Adventure is best said by Michael Scott: <br>
+                    "[Adventure] is about going out in the middle of no where and just try not to die, try not to get eaten by an animal, or be overexposed."
+                    </p>
+                </div>
+                <button type="button" class="about button" onclick="hidecontent()">About</button>
             </div>
-        </nav>
-        </div>
-        <div class="container-fluid">
-            <div id="hiddencontent" style="display: none">
-                <p>Hello!</p>
-                <p>Yo!</p>
+                  </div>
 
-            </div>
-            <button type="button" onclick="hidecontent()">Click Me!</button>
-
-        </div>
         
         
+        <!--<div class="container-fluid">-->
+        <!--    <div id="hiddencontent" style="display: none">-->
+        <!--        <p>Hello!</p>-->
+        <!--        <p>Yo!</p>-->
+
+        <!--    </div>-->
+        <!--    <button type="button" onclick="hidecontent()">Click Me!</button>-->
+        <!--</div>-->
+        
+        <div class="bgImage">
+            <span></span>
+        </div>
         <script>
             function hidecontent(){
-                document.getElementById("hiddencontent").style.display='block';
+                var x = document.getElementById("hiddencontent");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
             }
         </script>
     

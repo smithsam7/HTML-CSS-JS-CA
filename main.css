@@ -1,0 +1,72 @@
+.HomeBGImage{
+    background-image: url("http://www.parkcity4u.com/uploads/3611937_orig.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    opacity: 0.5;
+}
+
+.caption {
+    left: 0;
+    top: 54%;
+    width: 100%;
+    font-size: 70px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: black;
+}
+.boarder {
+    color: #777;
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+ul {
+    list-style-type:none;
+    font-size: 25px;
+    color: black;
+}
+ul li{
+    display: inline;
+}
+.container-fluid{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.about {
+    /*background-color: #4CAF50;*/
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+#hiddencontent {
+    color: black;
+}
+p {
+    padding: 20px;
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        font: 18px Arial, sans-serif;
+}
