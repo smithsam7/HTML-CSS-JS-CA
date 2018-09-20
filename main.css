@@ -60,10 +60,6 @@ ul li{
     background-color: #555555;
     color: white;
 }
-
-#hiddencontent {
-    color: black;
-}
 p {
     padding: 20px;
         background: rgba(0, 0, 0, 0.6);
